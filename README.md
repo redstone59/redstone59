@@ -1,10 +1,11 @@
-I'm redstone59, here's the things you need to know:
+# Person Things
 
+- Name: redstone59
 - Pronouns: she/her
 - Languages: Python (fluent), C# (semi-fluent), C (practically a beginner)
 - Learning: JavaScript, TypeScript
 - Currently enjoying: Buckshot Roulette, rewriting old projects
-- Currently not enjoying: old projects (that was the *bad time* - when I didn't know how to style code and classes)
+- Currently not enjoying: old projects (that was the *bad time* - when I didn't know how to style code nor what a class was)
 
 # Current Projects
 
