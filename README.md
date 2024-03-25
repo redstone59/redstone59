@@ -11,7 +11,7 @@
 
 **Backshot Roulette**: A bot that finds the best move in any position in a game of Buckshot Roulette.
 
-**Buckshot Game Notation**: An adaptation of Chess' *algebraic notation* for Buckshot Roulette.
+**Buckshot Game Notation**: An adaptation of Chess' *algebraic notation* for Buckshot Roulette. (Currently a private repo until it's functional. This is typically how I do things. sowwy)
 
 ## Projects I'm considering
 
