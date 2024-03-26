@@ -11,11 +11,13 @@
 
 **Backshot Roulette**: A bot that finds the best move in any position in a game of Buckshot Roulette.
 
-**Buckshot Game Notation**: An adaptation of Chess' *algebraic notation* for Buckshot Roulette. (Currently a private repo until it's functional. This is typically how I do things. sowwy)
+**Buckshot Game Notation**`*`: An adaptation of Chess' *algebraic notation* for Buckshot Roulette.
+
+**Bejeweled 3 World Championship Set Rewrite**`*`: A "parasite" program that latches onto Bejeweled 3 in order to give a Nintendo World Championship style game (pointers in Python suck, btw). Rewriting because the [original code](https://github.com/redstone59/Bejeweled3WorldChampionshipSet) looks fucking terrible. Also I have no clue as to why I didn't seperate the challenge creator and actual program into seperate repositories.
+
+`*` Currently a private repo until it's functional. This is typically how I do things. sowwy
 
 ## Projects I'm considering
-
-**Bejeweled 3 World Championship Set Rewrite**: This was a real novel idea I had, but for god's sake the code looks awful. A "parasite" program that latches onto Bejeweled 3 in order to give a Nintendo World Championship style game (pointers in Python suck, btw)
 
 **Some kind of Buckshot Roulette all-in-one program**: A BGN editor with evaluation capabilities with a bot of choice (in this case, Backshot Roulette). I've already devised the Buckshot Bot Interface so the program can communicate with other bots, too. Maybe it'd be a mod onto Buckshot Roulette (I do use Godot on occasion, a mod surely couldn't be that hard)
 
