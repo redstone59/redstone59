@@ -13,7 +13,7 @@
 
 **Buckshot Game Notation**`*`: An adaptation of Chess' *algebraic notation* for Buckshot Roulette.
 
-**Bejeweled 3 World Championship Set Rewrite**`*`: A "parasite" program that latches onto Bejeweled 3 in order to give a Nintendo World Championship style game (pointers in Python suck, btw). Rewriting because the [original code](https://github.com/redstone59/Bejeweled3WorldChampionshipSet) looks fucking terrible. Also I have no clue as to why I didn't seperate the challenge creator and actual program into seperate repositories.
+**Bejeweled 3 World Championship Set Rewrite**: A "parasite" program that latches onto Bejeweled 3 in order to give a Nintendo World Championship style game (pointers in Python suck, btw). Rewriting because the [original code](https://github.com/redstone59/Bejeweled3WorldChampionshipSet) looks fucking terrible. Also I have no clue as to why I didn't seperate the challenge creator and actual program into seperate repositories.
 
 `*` Currently a private repo until it's functional. This is typically how I do things. sowwy
 
