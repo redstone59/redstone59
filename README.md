@@ -5,7 +5,7 @@ from dataclasses import dataclass
 class PersonThings:
     name: str = "redstone59"
     pronouns: tuple[str, str] = ("she", "her")
-    language_profiency: dict[str, str] = {
+    language_proficency: dict[str, str] = {
         "Python": "fluent",
         "C#": "semi-fluent",
         "TypeScript": "surprisingly alright at it",
