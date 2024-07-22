@@ -9,6 +9,8 @@
 
 # Current Projects
 
+**Nine Cir*****le***: A -le game (like Wordle, Globle, etc.) based on the various clones of Nine Circles in Geometry Dash. Basically, my excuse to learn TypeScript and JavaScript.
+
 **Backshot Roulette Rewrite**: A bot that finds the best move in any position in a game of Buckshot Roulette. Again. But I'm gonna do it LIVE!!! ON STREAM!!!
 
 **NEStone59**: An NES emulator written from the ground up, written live on stream.
