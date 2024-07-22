@@ -64,7 +64,7 @@ const projectsImConsidering: Project[] = [
     {
         name: "Some kind of Buckshot Roulette all-in-one program",
         description: "A BGN editor with evaluation capabilities with a bot of choice (in this case, Backshot Roulette). I've already devised the Buckshot Bot Interface so the program can communicate with other bots, too. Maybe it'd be a mod onto Buckshot Roulette (I do use Godot on occasion, a mod surely couldn't be that hard)",
-        probable_languages: ["Python"]
+        probable_languages: ["Python", "GDScript"]
     },
     {
         name: "mCmd", // working title
