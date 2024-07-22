@@ -1,26 +1,75 @@
-# Person Things
+```py
+from dataclasses import dataclass
 
-- Name: redstone59
-- Pronouns: she/her
-- Languages: Python (fluent), C# (semi-fluent), C (practically a beginner)
-- Learning: JavaScript, TypeScript
-- Currently enjoying: C# and Unity, rewriting old projects
-- Currently not enjoying: old projects (that was the *bad time* - when I didn't know how to style code nor what a class was)
+@dataclass
+class PersonThings:
+    name: str = "redstone59"
+    pronouns: tuple[str, str] = ("she", "her")
+    language_profiency: dict[str, str] = {
+        "Python": "fluent",
+        "C#": "semi-fluent",
+        "TypeScript": "surprisingly alright at it",
+        "JavaScript": "decent",
+        "C": "haven't touched in ages"
+    }
+    currently_enjoys: list[str] = [
+        "Rewriting old projects",
+        "Learning TypeScript",
+        "the Unity game engine"
+    ]
+    currently_dislikes: list[str] = [
+        "Looking at old projects (I've gotten a lot better at programming over the past year)",
+        "the Unity game engine"
+    ]
+```
 
-# Current Projects
+```cs
+namespace CurrentProjects
+{
+    public struct Project
+    {
+        public string description;
+        public string[] languages;
+        public string? link; // I typically have repositories private until they are functional. Sorry!
+    }
 
-**Nine Circ*****le***: A -le game (like Wordle, Globle, etc.) based on the various clones of Nine Circles in Geometry Dash. Basically, my excuse to learn TypeScript and JavaScript.
+    public Project nineCircle = new(
+        "An -le game (like Wordle) based on the many Nine Circles clones in Geometry Dash",
+        ["TypeScript", "TSX (React)"], // A good friend of mine is doing all the front-end.
+        "https://github.com/redstone59/Nine-Circ-le"
+    );
 
-**Backshot Roulette Rewrite**: A bot that finds the best move in any position in a game of Buckshot Roulette. Again. But I'm gonna do it LIVE!!! ON STREAM!!!
+    public Project backshotRouletteRewrite = new(
+        "A bot that finds the best move in a game of Buckshot Roulette. Again. But written LIVE!!! ON STREAM!!!",
+        ["Python"],
+        "https://github.com/redstone59/BackshotRoulette"
+    );
 
-**NEStone59**: An NES emulator written from the ground up, written live on stream.
+    public Project buckshotGameNotation = new(
+        "An adapation of Chess' *algebraic notation* to Buckshot Roulette.",
+        ["GDScript", "Python"],
+        null
+    )
+}
+```
 
-**Buckshot Game Notation**`*`: An adaptation of Chess' *algebraic notation* for Buckshot Roulette.
+```ts
+class Project {
+    name: string;
+    description: string;
+    probable_languages: string[]
+}
 
-`*` Currently a private repo until it's functional. This is typically how I do things. sowwy
-
-## Projects I'm considering
-
-**Some kind of Buckshot Roulette all-in-one program**: A BGN editor with evaluation capabilities with a bot of choice (in this case, Backshot Roulette). I've already devised the Buckshot Bot Interface so the program can communicate with other bots, too. Maybe it'd be a mod onto Buckshot Roulette (I do use Godot on occasion, a mod surely couldn't be that hard)
-
-**mCmd (working title)**: A higher level language for Minecraft command blocks. Currently considering redoing the whole program so then it's Pythonic instead of C-like. (there are too many C command block languages)
+const projectsImConsidering: Project[] = [
+    {
+        name: "Some kind of Buckshot Roulette all-in-one program",
+        description: "A BGN editor with evaluation capabilities with a bot of choice (in this case, Backshot Roulette). I've already devised the Buckshot Bot Interface so the program can communicate with other bots, too. Maybe it'd be a mod onto Buckshot Roulette (I do use Godot on occasion, a mod surely couldn't be that hard)",
+        probable_languages: ["Python"]
+    },
+    {
+        name: "mCmd", // working title
+        description: "A higher-level language that transpiles to [LazyCMD](https://github.com/redstone59/LazyCMD). Considering making it Pythonic instead of C-like (too many C-like command block languages exist)",
+        probable_languages: ["Python"]
+    }
+]
+```
