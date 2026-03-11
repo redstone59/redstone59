@@ -7,19 +7,19 @@ class PersonThings:
     pronouns: tuple[str, str] = ("she", "her")
     language_proficency: dict[str, str] = {
         "Python": "fluent",
-        "C#": "semi-fluent",
+        "C#": "fluent",
         "TypeScript": "surprisingly alright at it",
         "JavaScript": "decent",
         "C": "haven't touched in ages"
     }
     currently_enjoys: list[str] = [
-        "Rewriting old projects",
+        "Starting a bunch of new projects that don't really get anywhere.",
         "Learning TypeScript",
-        "the Unity game engine"
+        "Messing with my Obsidian Vault"
     ]
     currently_dislikes: list[str] = [
-        "Looking at old projects (I've gotten a lot better at programming over the past year)",
-        "the Unity game engine"
+        "Starting a bunch of new projects that don't really get anywhere.",
+        "Looking at old projects (I've gotten a lot better at programming over the past five years)"
     ]
 ```
 
@@ -35,21 +35,9 @@ namespace CurrentProjects
 
     public Project nineCircle = new(
         "An -le game (like Wordle) based on the many Nine Circles clones in Geometry Dash",
-        ["TypeScript", "TSX (React)"], // A good friend of mine is doing all the front-end.
+        ["TypeScript", "HTML/CSS"],
         "https://github.com/redstone59/Nine-Circ-le"
     );
-
-    public Project backshotRouletteRewrite = new(
-        "A bot that finds the best move in a game of Buckshot Roulette. Again. But written LIVE!!! ON STREAM!!!",
-        ["Python"],
-        "https://github.com/redstone59/BackshotRoulette"
-    );
-
-    public Project buckshotGameNotation = new(
-        "An adapation of Chess' *algebraic notation* to Buckshot Roulette.",
-        ["GDScript", "Python"],
-        null
-    )
 }
 ```
 
@@ -62,14 +50,14 @@ class Project {
 
 const projectsImConsidering: Project[] = [
     {
-        name: "Some kind of Buckshot Roulette all-in-one program",
-        description: "A BGN editor with evaluation capabilities with a bot of choice (in this case, Backshot Roulette). I've already devised the Buckshot Bot Interface so the program can communicate with other bots, too. Maybe it'd be a mod onto Buckshot Roulette (I do use Godot on occasion, a mod surely couldn't be that hard)",
-        probable_languages: ["Python", "GDScript"]
+        name: "LadderRank",
+        description: "A website where users can rank media on a ladder from best to worst using binary search with less emphasis on a number rating.",
+        probable_languages: ["TypeScript", "HTML/CSS"]
     },
     {
-        name: "mCmd", // working title
-        description: "A higher-level language that transpiles to [LazyCMD](https://github.com/redstone59/LazyCMD). Considering making it Pythonic instead of C-like (too many C-like command block languages exist)",
-        probable_languages: ["Python"]
+        name: "Scribousel",
+        description: "A collaborative story-writing web browser game. Idea inspired by the video 'Markiplier Makes: Fan Fiction' by Markiplier.",
+        probable_languages: ["Python", "TypeScript", "HTML/CSS"]
     }
 ]
 ```
